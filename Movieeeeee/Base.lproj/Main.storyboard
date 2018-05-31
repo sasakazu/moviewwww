@@ -45,7 +45,7 @@
         <!--Title-->
         <scene sceneID="eBo-Jy-GbX">
             <objects>
-                <viewController id="d6l-pH-sRr" sceneMemberID="viewController">
+                <viewController id="d6l-pH-sRr" customClass="cameraViewController" customModule="Movieeeeee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bI0-EC-YFr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,6 +63,9 @@
                                         <integer key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="shutterTapped:" destination="d6l-pH-sRr" eventType="touchUpInside" id="Xr3-cb-lSS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,6 +78,9 @@
                     <navigationItem key="navigationItem" title="Title" id="R4L-Jd-YC5">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="WnZ-QL-Il7"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="shutterBtn" destination="2gT-kb-gux" id="5n7-Zy-qh3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I1h-5U-eNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

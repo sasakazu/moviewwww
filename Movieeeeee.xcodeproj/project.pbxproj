@@ -13,6 +13,7 @@
 		734C7A5120BFEA3800D66667 /* Movieeeeee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 734C7A4F20BFEA3800D66667 /* Movieeeeee.xcdatamodeld */; };
 		734C7A5320BFEA3A00D66667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734C7A5220BFEA3A00D66667 /* Assets.xcassets */; };
 		734C7A5620BFEA3A00D66667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734C7A5420BFEA3A00D66667 /* LaunchScreen.storyboard */; };
+		734C7A5E20BFFB0300D66667 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C7A5D20BFFB0300D66667 /* cameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		734C7A5220BFEA3A00D66667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734C7A5520BFEA3A00D66667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734C7A5720BFEA3A00D66667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734C7A5D20BFFB0300D66667 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				734C7A4820BFEA3800D66667 /* AppDelegate.swift */,
 				734C7A4A20BFEA3800D66667 /* ViewController.swift */,
 				734C7A4C20BFEA3800D66667 /* Main.storyboard */,
+				734C7A5D20BFFB0300D66667 /* cameraViewController.swift */,
 				734C7A5220BFEA3A00D66667 /* Assets.xcassets */,
 				734C7A5420BFEA3A00D66667 /* LaunchScreen.storyboard */,
 				734C7A5720BFEA3A00D66667 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				734C7A4B20BFEA3800D66667 /* ViewController.swift in Sources */,
+				734C7A5E20BFFB0300D66667 /* cameraViewController.swift in Sources */,
 				734C7A5120BFEA3800D66667 /* Movieeeeee.xcdatamodeld in Sources */,
 				734C7A4920BFEA3800D66667 /* AppDelegate.swift in Sources */,
 			);
